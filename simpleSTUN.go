@@ -51,7 +51,6 @@ func GetPublicIPPort(conn net.PacketConn, opts *Options) (string, int, error) {
 	}
 
 	serverAddr, err := net.ResolveUDPAddr("udp", serverAddrStr)
-	fmt.Println("using address, ", serverAddr)
 	if err != nil {
 		return "", 0, fmt.Errorf("failed to resolve STUN server address %s: %w", serverAddrStr, err)
 	}
