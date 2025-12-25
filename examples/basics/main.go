@@ -3,7 +3,7 @@ package main
 import (
 	"net"
 
-	"simpleSTUN/simpleSTUN"
+	simpleSTUN "github.com/simpleNetworking/go-simplestun"
 )
 
 func main() {
