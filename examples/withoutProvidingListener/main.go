@@ -1,7 +1,7 @@
 package main
 
 import (
-	"simpleSTUN"
+	"simpleSTUN/simpleSTUN"
 )
 
 func main() {

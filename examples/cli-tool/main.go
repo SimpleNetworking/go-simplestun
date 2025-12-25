@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"simpleSTUN"
+	"simpleSTUN/simpleSTUN"
 )
 
 func main() {
