@@ -3,10 +3,11 @@
 An overly simplistic **STUN** (Session Traversal Utilities for NAT) library in Go to discover your public IP address and port from behind NAT.
 
 The library provides you with only ONE function to get the job done, as every STUN library should.
+(RFC5489 and RFC8489 compatible)
 
 ## Features
 
-- Minimal, dependency-free STUN client (Binding Request/Response per RFC 8489).
+- Minimal, dependency-free STUN client.
 - Retrieves the public (mapped) IP and port as seen by the STUN server.
 - Pure standard library usage.
 - Multiple usage examples provided.
