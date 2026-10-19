@@ -52,6 +52,6 @@ func main() {
   // And now you can share these with peers. Or do whatever you want, for that matter
 }
 ```
-Of course you don't HAVE to create a listener yourself, you may provide the function with a port number and it will create a listener on that specific port for you. Alternatively, you may not pass anything at all, and the function will create a random port on its own. Do that only if **only** need the IP and don't care about the port number.
+Of course you don't HAVE to create a listener yourself, you may provide the function with a port number and it will create a listener on that specific port for you. Alternatively, you may not pass anything at all, and the function will create a random port on its own. Do that only you if **only** need the IP and don't care about the port number.
 
 For more advanced usage, different options, or custom listeners, check the comprehensive examples in the examples/ folder.
